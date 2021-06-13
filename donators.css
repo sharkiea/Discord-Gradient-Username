@@ -1,0 +1,110 @@
+.userPopout-xaxa6l[aria-label=Qvas] .profileBadges-3cJaE1 > :last-child, .userPopout-xaxa6l[aria-label=PANIC] .profileBadges-3cJaE1 > :last-child, .userPopout-xaxa6l[aria-label=Noteless] .profileBadges-3cJaE1 > :last-child, .userPopout-xaxa6l[aria-label=josh] .profileBadges-3cJaE1 > :last-child, .userPopout-xaxa6l[aria-label=Rabbite] .profileBadges-3cJaE1 > :last-child {
+  margin-right: 30px;
+}
+.userPopout-xaxa6l[aria-label=Qvas] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=PANIC] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=Noteless] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=josh] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=Rabbite] .profileBadges-3cJaE1::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  right: 0;
+  pointer-events: none;
+  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
+  background-size: 24%;
+  background-position: right top;
+}
+.userPopout-xaxa6l[aria-label=Qvas] .profileBadges-3cJaE1:hover::before, .userPopout-xaxa6l[aria-label=PANIC] .profileBadges-3cJaE1:hover::before, .userPopout-xaxa6l[aria-label=Noteless] .profileBadges-3cJaE1:hover::before, .userPopout-xaxa6l[aria-label=josh] .profileBadges-3cJaE1:hover::before, .userPopout-xaxa6l[aria-label=Rabbite] .profileBadges-3cJaE1:hover::before {
+  content: "Donator";
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.members-1998pB .wrapper-3t9DeA[data-user-id="596812194906374167"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="596812194906374167"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="596812194906374167"]::before, .members-1998pB .wrapper-3t9DeA[data-user-id="193188089756123136"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="193188089756123136"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="193188089756123136"]::before, .members-1998pB .wrapper-3t9DeA[data-user-id="281376608038813696"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="281376608038813696"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="281376608038813696"]::before, .members-1998pB .wrapper-3t9DeA[data-user-id="269939624401436672"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="269939624401436672"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="269939624401436672"]::before .members-1998pB .wrapper-3t9DeA[data-user-id="272440514400354305"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="272440514400354305"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="272440514400354305"]::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 14px;
+  bottom: -3px;
+  left: -5px;
+  z-index: 2;
+  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
+  background-size: 80%;
+  background-position: center left;
+  background-color: var(--background-secondary);
+  border-radius: 0 5px 0 0;
+  pointer-events: none;
+}
+
+.message-2qnXI6[data-user-id="193188089756123136"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="193188089756123136"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="193188089756123136"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=PANIC] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=PANIC] .overflow-WK9Ogt,
+.message-2qnXI6[data-user-id="281376608038813696"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="281376608038813696"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="281376608038813696"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=Noteless] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=Noteless] .overflow-WK9Ogt,
+.message-2qnXI6[vz-user-id="596812194906374167"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="596812194906374167"] .username-1A8OIy,
+.message-2qnXI6[data-user-id="596812194906374167"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=Qvas] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=Qvas] .overflow-WK9Ogt,
+.message-2qnXI6[data-user-id="269939624401436672"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="269939624401436672"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="269939624401436672"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=josh] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=josh] .overflow-WK9Ogt,
+.message-2qnXI6[data-user-id="272440514400354305"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="272440514400354305"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="272440514400354305"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=Rabbite] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=Rabbite] .overflow-WK9Ogt {
+  color: transparent;
+  font-weight: bold;
+  background-size: 300%;
+  animation: shine 10s linear infinite;
+  -webkit-background-clip: text;
+}
+@keyframes shine {
+  to {
+    background-position: 300% center;
+  }
+}
+
+.message-2qnXI6[data-user-id="193188089756123136"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="193188089756123136"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="193188089756123136"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=PANIC] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=PANIC] .overflow-WK9Ogt,
+.message-2qnXI6[data-user-id="281376608038813696"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="281376608038813696"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="281376608038813696"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=Noteless] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=Noteless] .overflow-WK9Ogt {
+  background-image: linear-gradient(-60deg, #1a8ce9 40%, #0b304e 80%, #1a8ce9 100%);
+}
+
+.message-2qnXI6[vz-user-id="596812194906374167"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="596812194906374167"] .username-1A8OIy,
+.message-2qnXI6[data-user-id="596812194906374167"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=Qvas] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=Qvas] .overflow-WK9Ogt {
+  background-image: linear-gradient(-60deg, #ffe23b, #a18400, #ffe23b);
+}
+
+.message-2qnXI6[data-user-id="269939624401436672"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="269939624401436672"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="269939624401436672"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=josh] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=josh] .overflow-WK9Ogt {
+  background-image: linear-gradient(-60deg, #DA22FF, #9733EE, #DA22FF);
+}
+
+.message-2qnXI6[data-user-id="272440514400354305"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="272440514400354305"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="272440514400354305"] .username-1A8OIy,
+.userPopout-xaxa6l[aria-label=Rabbite] .username-2b1r56,
+.privateChannels-1nO12o [aria-label^=Rabbite] .overflow-WK9Ogt {
+  background-image: linear-gradient(to right, #FDC7C5 0%, #FEC4DF 10%, #EFC8F3 20%, #D2D0FC 30%, #B0DAF6 40%, #9AE1E3 50%, #9FE2C9 60%, #B8DFB2 70%, #D6D8A7 80%, #EFCFAF 90%, #FDC7C5 100%);
+}
