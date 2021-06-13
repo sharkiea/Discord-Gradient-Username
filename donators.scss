@@ -12,9 +12,9 @@
         .profileBadges-3cJaE1 {
             & > :last-child { margin-right: 30px;}
             &::before {
-                content: ""; position: absolute;
+                content: ""; position: relative;
                 width: 20px; height: 17px;
-                right: 0; pointer-events: none;
+                margin: 0 4px; pointer-events: none;
                 background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") center/100% no-repeat;
             }
         } 

@@ -3,10 +3,10 @@
 }
 .userPopout-xaxa6l[aria-label=Qvas] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=PANIC] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=Noteless] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=josh] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=Rabbite] .profileBadges-3cJaE1::before {
   content: "";
-  position: absolute;
+  position: relative;
   width: 20px;
   height: 17px;
-  right: 0;
+  margin: 0 4px;
   pointer-events: none;
   background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") center/100% no-repeat;
 }
