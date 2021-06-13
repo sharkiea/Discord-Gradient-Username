@@ -2,12 +2,26 @@
 
 .userPopout-xaxa6l {
 
-    &[aria-label="Qvas"],
-    &[aria-label="PANIC"],
-    &[aria-label="Noteless"],
-    &[aria-label="josh"],
-    &[aria-label="Rabbite"] 
-    
+    // PANIC#6666
+    &[data-user-id="193188089756123136"],
+    &[vz-user-id="193188089756123136"],
+
+    // Qvas#7777
+    &[data-user-id="596812194906374167"],
+    &[vz-user-id="596812194906374167"],
+
+    // Noteless#0666
+    &[data-user-id="281376608038813696"],
+    &[vz-user-id="281376608038813696"],
+
+    // Josh#3577
+    &[data-user-id="269939624401436672"],
+    &[vz-user-id="269939624401436672"],
+
+    // Rabbite#6969
+    &[data-user-id="272440514400354305"],
+    &[vz-user-id="272440514400354305"]
+
     {
         .profileBadges-3cJaE1 {
             & > :last-child { margin-right: 30px;}
@@ -23,27 +37,27 @@
 
 .members-1998pB .wrapper-3t9DeA { 
 
-    // Qvas
+    // PANIC#6666
+    &[data-user-id="193188089756123136"]::before,
+    &[data-author-id="193188089756123136"]::before,
+    &[vz-user-id="193188089756123136"]::before,
+    
+    // Qvas#7777
     &[data-user-id="596812194906374167"]::before,
     &[data-author-id="596812194906374167"]::before,
     &[vz-user-id="596812194906374167"]::before,
 
-    // PANIC
-    &[data-user-id="193188089756123136"]::before,
-    &[data-author-id="193188089756123136"]::before,
-    &[vz-user-id="193188089756123136"]::before,
-
-    // Noteless
+    // Noteless#0666
     &[data-user-id="281376608038813696"]::before,
     &[data-author-id="281376608038813696"]::before,
     &[vz-user-id="281376608038813696"]::before,
 
-    // Josh
+    // Josh#3577
     &[data-user-id="269939624401436672"]::before,
     &[data-author-id="269939624401436672"]::before,
     &[vz-user-id="269939624401436672"]::before
 
-    // Josh
+    // Rabbite#6969
     &[data-user-id="272440514400354305"]::before,
     &[data-author-id="272440514400354305"]::before,
     &[vz-user-id="272440514400354305"]::before
@@ -67,44 +81,67 @@
 .message-2qnXI6[data-user-id="193188089756123136"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="193188089756123136"] .username-1A8OIy,
 .message-2qnXI6[vz-user-id="193188089756123136"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="PANIC"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="PANIC"] .overflow-WK9Ogt,
+.channel-2QD9_O[data-user-id="193188089756123136"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="193188089756123136"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="193188089756123136"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="193188089756123136"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="193188089756123136"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="193188089756123136"] .username-2b1r56,
+.root-3QyAh1[data-user-id="193188089756123136"] .username-2b1r56,
+
+// Qvas#7777
+.message-2qnXI6[data-user-id="596812194906374167"] .username-1A8OIy,
+.message-2qnXI6[data-author-id="596812194906374167"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="596812194906374167"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="596812194906374167"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="596812194906374167"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="596812194906374167"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="596812194906374167"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="596812194906374167"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="596812194906374167"] .username-2b1r56,
+.root-3QyAh1[data-user-id="596812194906374167"] .username-2b1r56,
 
 // Noteless#0666
 .message-2qnXI6[data-user-id="281376608038813696"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="281376608038813696"] .username-1A8OIy,
 .message-2qnXI6[vz-user-id="281376608038813696"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="Noteless"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="Noteless"] .overflow-WK9Ogt,
-
-// Qvas#7777
-.message-2qnXI6[vz-user-id="596812194906374167"] .username-1A8OIy,
-.message-2qnXI6[data-author-id="596812194906374167"] .username-1A8OIy,
-.message-2qnXI6[data-user-id="596812194906374167"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="Qvas"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="Qvas"] .overflow-WK9Ogt,
+.channel-2QD9_O[data-user-id="281376608038813696"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="281376608038813696"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="281376608038813696"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="281376608038813696"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="281376608038813696"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="281376608038813696"] .username-2b1r56,
+.root-3QyAh1[data-user-id="281376608038813696"] .username-2b1r56,
 
 // Josh#3577
 .message-2qnXI6[data-user-id="269939624401436672"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="269939624401436672"] .username-1A8OIy,
 .message-2qnXI6[vz-user-id="269939624401436672"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="josh"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="josh"] .overflow-WK9Ogt,
+.channel-2QD9_O[data-user-id="269939624401436672"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="269939624401436672"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="269939624401436672"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="269939624401436672"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="269939624401436672"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="269939624401436672"] .username-2b1r56,
+.root-3QyAh1[data-user-id="269939624401436672"] .username-2b1r56,
 
 // Rabbite#6969
 .message-2qnXI6[data-user-id="272440514400354305"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="272440514400354305"] .username-1A8OIy,
 .message-2qnXI6[vz-user-id="272440514400354305"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="Rabbite"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="Rabbite"] .overflow-WK9Ogt
+.channel-2QD9_O[data-user-id="272440514400354305"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="272440514400354305"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="272440514400354305"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="272440514400354305"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="272440514400354305"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="272440514400354305"] .username-2b1r56,
+.root-3QyAh1[data-user-id="272440514400354305"] .username-2b1r56
 
 { 
     color: transparent !important;
-    font-weight: bold;
-    background-size: 300%;
+    font-weight: bold; background-size: 300%;
     animation: shine 10s linear infinite;
     -webkit-background-clip: text;
-
     @keyframes shine { to { background-position: 300% center;}}
 }
 
@@ -112,45 +149,62 @@
 .message-2qnXI6[data-user-id="193188089756123136"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="193188089756123136"] .username-1A8OIy,
 .message-2qnXI6[vz-user-id="193188089756123136"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="PANIC"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="PANIC"] .overflow-WK9Ogt,
+.channel-2QD9_O[data-user-id="193188089756123136"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="193188089756123136"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="193188089756123136"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="193188089756123136"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="193188089756123136"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="193188089756123136"] .username-2b1r56,
+.root-3QyAh1[data-user-id="193188089756123136"] .username-2b1r56,
 
 // Noteless#0666 - Blue / Dark
 .message-2qnXI6[data-user-id="281376608038813696"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="281376608038813696"] .username-1A8OIy,
 .message-2qnXI6[vz-user-id="281376608038813696"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="Noteless"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="Noteless"] .overflow-WK9Ogt 
-
-{
-    background-image: linear-gradient(-60deg, #1a8ce9 40%, #0b304e 80%, #1a8ce9 100%);
-}
+.channel-2QD9_O[data-user-id="281376608038813696"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="281376608038813696"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="281376608038813696"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="281376608038813696"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="281376608038813696"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="281376608038813696"] .username-2b1r56,
+.root-3QyAh1[data-user-id="281376608038813696"] .username-2b1r56
+{ background-image: linear-gradient(-60deg, #1a8ce9 40%, #0b304e 80%, #1a8ce9 100%);}
 
 // Qvas#7777 - Gold
-.message-2qnXI6[vz-user-id="596812194906374167"] .username-1A8OIy,
-.message-2qnXI6[data-author-id="596812194906374167"] .username-1A8OIy,
 .message-2qnXI6[data-user-id="596812194906374167"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="Qvas"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="Qvas"] .overflow-WK9Ogt {
-    background-image: linear-gradient(-60deg, #ffe23b, #a18400, #ffe23b);
-}
+.message-2qnXI6[data-author-id="596812194906374167"] .username-1A8OIy,
+.message-2qnXI6[vz-user-id="596812194906374167"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="596812194906374167"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="596812194906374167"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="596812194906374167"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="596812194906374167"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="596812194906374167"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="596812194906374167"] .username-2b1r56,
+.root-3QyAh1[data-user-id="596812194906374167"] .username-2b1r56
+{ background-image: linear-gradient(-60deg, #ffe23b, #a18400, #ffe23b);}
 
 // Josh#3577 - Purple
 .message-2qnXI6[data-user-id="269939624401436672"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="269939624401436672"] .username-1A8OIy,
 .message-2qnXI6[vz-user-id="269939624401436672"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="josh"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="josh"] .overflow-WK9Ogt {
-    background-image: linear-gradient(-60deg, #DA22FF, #9733EE, #DA22FF);
-}
+.channel-2QD9_O[data-user-id="269939624401436672"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="269939624401436672"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="269939624401436672"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="269939624401436672"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="269939624401436672"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="269939624401436672"] .username-2b1r56,
+.root-3QyAh1[data-user-id="269939624401436672"] .username-2b1r56 
+{ background-image: linear-gradient(-60deg, #DA22FF, #9733EE, #DA22FF);}
 
 // Rabbite#6969 - Lot of colors
 .message-2qnXI6[data-user-id="272440514400354305"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="272440514400354305"] .username-1A8OIy,
 .message-2qnXI6[vz-user-id="272440514400354305"] .username-1A8OIy,
-.userPopout-xaxa6l[aria-label="Rabbite"] .username-2b1r56,
-.privateChannels-1nO12o [aria-label^="Rabbite"] .overflow-WK9Ogt {
-    background-image: linear-gradient(to right,
-        #FDC7C5 0%,#FEC4DF 10%, #EFC8F3 20%, #D2D0FC 30%, #B0DAF6 40%, #9AE1E3 50%, 
-        #9FE2C9 60%, #B8DFB2 70%,#D6D8A7 80%,#EFCFAF 90%,#FDC7C5 100%);
-}
+.channel-2QD9_O[data-user-id="272440514400354305"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="272440514400354305"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="272440514400354305"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="272440514400354305"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="272440514400354305"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="272440514400354305"] .username-2b1r56,
+.root-3QyAh1[data-user-id="272440514400354305"] .username-2b1r56 
+{ background-image: linear-gradient(to right,#FDC7C5 0%,#FEC4DF 10%, #EFC8F3 20%, #D2D0FC 30%, #B0DAF6 40%, #9AE1E3 50%, #9FE2C9 60%, #B8DFB2 70%,#D6D8A7 80%,#EFCFAF 90%,#FDC7C5 100%);}
