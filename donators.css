@@ -4,19 +4,11 @@
 .userPopout-xaxa6l[aria-label=Qvas] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=PANIC] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=Noteless] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=josh] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[aria-label=Rabbite] .profileBadges-3cJaE1::before {
   content: "";
   position: absolute;
-  width: 90px;
-  height: 90px;
+  width: 20px;
+  height: 17px;
   right: 0;
   pointer-events: none;
-  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
-  background-size: 24%;
-  background-position: right top;
-}
-.userPopout-xaxa6l[aria-label=Qvas] .profileBadges-3cJaE1:hover::before, .userPopout-xaxa6l[aria-label=PANIC] .profileBadges-3cJaE1:hover::before, .userPopout-xaxa6l[aria-label=Noteless] .profileBadges-3cJaE1:hover::before, .userPopout-xaxa6l[aria-label=josh] .profileBadges-3cJaE1:hover::before, .userPopout-xaxa6l[aria-label=Rabbite] .profileBadges-3cJaE1:hover::before {
-  content: "Donator";
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") center/100% no-repeat;
 }
 
 .members-1998pB .wrapper-3t9DeA[data-user-id="596812194906374167"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="596812194906374167"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="596812194906374167"]::before, .members-1998pB .wrapper-3t9DeA[data-user-id="193188089756123136"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="193188089756123136"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="193188089756123136"]::before, .members-1998pB .wrapper-3t9DeA[data-user-id="281376608038813696"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="281376608038813696"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="281376608038813696"]::before, .members-1998pB .wrapper-3t9DeA[data-user-id="269939624401436672"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="269939624401436672"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="269939624401436672"]::before .members-1998pB .wrapper-3t9DeA[data-user-id="272440514400354305"]::before, .members-1998pB .wrapper-3t9DeA[data-author-id="272440514400354305"]::before, .members-1998pB .wrapper-3t9DeA[vz-user-id="272440514400354305"]::before {
@@ -60,7 +52,7 @@
 .message-2qnXI6[vz-user-id="272440514400354305"] .username-1A8OIy,
 .userPopout-xaxa6l[aria-label=Rabbite] .username-2b1r56,
 .privateChannels-1nO12o [aria-label^=Rabbite] .overflow-WK9Ogt {
-  color: transparent;
+  color: transparent !important;
   font-weight: bold;
   background-size: 300%;
   animation: shine 10s linear infinite;
