@@ -24,11 +24,10 @@
 
     {
         .profileBadges-3cJaE1 {
-            & > :last-child { margin-right: 30px;}
             &::before {
                 content: ""; position: relative;
                 width: 20px; height: 17px;
-                margin: 0 4px; pointer-events: none;
+                margin: 0 6px; pointer-events: none;
                 background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") center/100% no-repeat;
             }
         } 
@@ -39,36 +38,32 @@
 
     // PANIC#6666
     &[data-user-id="193188089756123136"]::before,
-    &[data-author-id="193188089756123136"]::before,
     &[vz-user-id="193188089756123136"]::before,
     
     // Qvas#7777
     &[data-user-id="596812194906374167"]::before,
-    &[data-author-id="596812194906374167"]::before,
     &[vz-user-id="596812194906374167"]::before,
 
     // Noteless#0666
     &[data-user-id="281376608038813696"]::before,
-    &[data-author-id="281376608038813696"]::before,
     &[vz-user-id="281376608038813696"]::before,
 
     // Josh#3577
     &[data-user-id="269939624401436672"]::before,
-    &[data-author-id="269939624401436672"]::before,
-    &[vz-user-id="269939624401436672"]::before
+    &[vz-user-id="269939624401436672"]::before,
 
     // Rabbite#6969
     &[data-user-id="272440514400354305"]::before,
-    &[data-author-id="272440514400354305"]::before,
     &[vz-user-id="272440514400354305"]::before
 
     {
         content: ""; position: absolute;
         width: 18px; height: 14px;
-        bottom: -3px; left: -5px; z-index: 2;
+        bottom: -3px; left: -5px;
+        z-index: 2; 
         background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
-        background-size: 80%;
-        background-position: center left;
+        background-size: 85%;
+        background-position: bottom left;
         background-color: var(--background-secondary);
         border-radius: 0 5px 0 0;
         pointer-events: none;
