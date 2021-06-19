@@ -23,12 +23,6 @@
   border-radius: 0 5px 0 0;
   pointer-events: none;
 }
-.member-3-YXUe:hover .layout-2DM8Md .wrapper-3t9DeA::before {
-  background-color: var(--background-modifier-hover);
-}
-.member-3-YXUe.selected-aXhQR6 .wrapper-3t9DeA::before {
-  background-color: var(--background-modifier-selected);
-}
 
 .message-2qnXI6[data-user-id="193188089756123136"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[data-author-id="193188089756123136"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,

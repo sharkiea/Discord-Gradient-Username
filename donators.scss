@@ -38,49 +38,44 @@
     } 
 }
 
-.member-3-YXUe { 
-    .wrapper-3t9DeA { 
+.member-3-YXUe .wrapper-3t9DeA {
+    
+    // PANIC#6666
+    &[data-user-id="193188089756123136"]::before,
+    &[vz-user-id="193188089756123136"]::before,
+    
+    // Qvas#7777
+    &[data-user-id="596812194906374167"]::before,
+    &[vz-user-id="596812194906374167"]::before,
 
-        // PANIC#6666
-        &[data-user-id="193188089756123136"]::before,
-        &[vz-user-id="193188089756123136"]::before,
-        
-        // Qvas#7777
-        &[data-user-id="596812194906374167"]::before,
-        &[vz-user-id="596812194906374167"]::before,
+    // Noteless#0666
+    &[data-user-id="281376608038813696"]::before,
+    &[vz-user-id="281376608038813696"]::before,
 
-        // Noteless#0666
-        &[data-user-id="281376608038813696"]::before,
-        &[vz-user-id="281376608038813696"]::before,
+    // Josh#3577
+    &[data-user-id="269939624401436672"]::before,
+    &[vz-user-id="269939624401436672"]::before,
 
-        // Josh#3577
-        &[data-user-id="269939624401436672"]::before,
-        &[vz-user-id="269939624401436672"]::before,
+    // Rabbite#6969
+    &[data-user-id="272440514400354305"]::before,
+    &[vz-user-id="272440514400354305"]::before,
 
-        // Rabbite#6969
-        &[data-user-id="272440514400354305"]::before,
-        &[vz-user-id="272440514400354305"]::before,
+    // bolo#0199
+    &[data-user-id="409639495030538250"]::before,
+    &[vz-user-id="409639495030538250"]::before
 
-        // bolo#0199
-        &[data-user-id="409639495030538250"]::before,
-        &[vz-user-id="409639495030538250"]::before
-
-        {
-            content: ""; position: absolute;
-            width: 18px; height: 14px;
-            bottom: -3px; left: -5px;
-            z-index: 2; 
-            background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
-            background-size: 85%;
-            background-position: bottom left;
-            background-color: var(--background-secondary);
-            border-radius: 0 5px 0 0;
-            pointer-events: none;
-        }
-    } 
-
-    &:hover .layout-2DM8Md .wrapper-3t9DeA::before { background-color: var(--background-modifier-hover);}
-    &.selected-aXhQR6 .wrapper-3t9DeA::before { background-color: var(--background-modifier-selected);}
+    {
+        content: ""; position: absolute;
+        width: 18px; height: 14px;
+        bottom: -3px; left: -5px;
+        z-index: 2; 
+        background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
+        background-size: 85%;
+        background-position: bottom left;
+        background-color: var(--background-secondary);
+        border-radius: 0 5px 0 0;
+        pointer-events: none;
+    }
 }
 
 // -- Animated gradient username --
