@@ -32,7 +32,11 @@
 
     // Reaper45#0001
     &[data-user-id="303880582331629569"],
-    &[vz-user-id="303880582331629569"]
+    &[vz-user-id="303880582331629569"],
+
+    // SkeppyCat#1185
+    &[data-user-id="442661470770167838"],
+    &[vz-user-id="442661470770167838"]
 
     {
         .profileBadges-3cJaE1 {
@@ -78,7 +82,11 @@
 
     // Reaper45#0001
     &[data-user-id="562386647828791311"]::before,
-    &[vz-user-id="562386647828791311"]::before
+    &[vz-user-id="562386647828791311"]::before,
+
+    // SkeppyCat#1185
+    &[data-user-id="442661470770167838"]::before,
+    &[vz-user-id="442661470770167838"]::before
 
     {
         content: ""; position: absolute;
@@ -188,7 +196,19 @@
 .member-3-YXUe[vz-user-id="562386647828791311"] .roleColor-rz2vM0,
 .userPopout-xaxa6l[data-user-id="562386647828791311"] .username-2b1r56,
 .userPopout-xaxa6l[vz-user-id="562386647828791311"] .username-2b1r56,
-.root-3QyAh1[data-user-id="562386647828791311"] .username-2b1r56
+.root-3QyAh1[data-user-id="562386647828791311"] .username-2b1r56,
+
+// SkeppyCat#1185
+.message-2qnXI6[data-user-id="442661470770167838"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="442661470770167838"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="442661470770167838"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="442661470770167838"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="442661470770167838"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="442661470770167838"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="442661470770167838"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="442661470770167838"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="442661470770167838"] .username-2b1r56,
+.root-3QyAh1[data-user-id="442661470770167838"] .username-2b1r56
 
 { 
     color: transparent !important;
@@ -298,4 +318,18 @@
 .userPopout-xaxa6l[data-user-id="562386647828791311"] .username-2b1r56,
 .userPopout-xaxa6l[vz-user-id="562386647828791311"] .username-2b1r56,
 .root-3QyAh1[data-user-id="562386647828791311"] .username-2b1r56
-{ background-image: linear-gradient(56deg, rgba(223,193,63,1) 0%, rgba(246,57,57,1) 50%, rgba(62,9,157,1) 100%);}
+{ background-image: linear-gradient(56deg, rgba(223,193,63,1) 0%, rgba(246,57,57,1) 33%, rgba(62,9,157,1) 66%, rgba(223,193,63,1) 99%);}
+
+// SkeppyCat#1185
+.message-2qnXI6[data-user-id="442661470770167838"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="442661470770167838"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="442661470770167838"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="442661470770167838"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="442661470770167838"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="442661470770167838"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="442661470770167838"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="442661470770167838"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="442661470770167838"] .username-2b1r56,
+.root-3QyAh1[data-user-id="442661470770167838"] .username-2b1r56 
+
+{ background-image: linear-gradient(90deg, rgba(252,178,215,1) 0%, rgba(0,0,0,1) 50%, rgba(252,178,215,1) 100%);}
