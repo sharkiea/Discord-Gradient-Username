@@ -132,7 +132,7 @@
 
 // -- Animated gradient username --
 
-// PANIC#6666 - Blue / Dark
+// PANIC#6666
 .message-2qnXI6[data-user-id="193188089756123136"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[data-author-id="193188089756123136"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[vz-user-id="193188089756123136"] .username-1A8OIy,
@@ -142,9 +142,17 @@
 .member-3-YXUe[vz-user-id="193188089756123136"] .roleColor-rz2vM0,
 .userPopout-xaxa6l[data-user-id="193188089756123136"] .username-2b1r56,
 .userPopout-xaxa6l[vz-user-id="193188089756123136"] .username-2b1r56,
-.root-3QyAh1[data-user-id="193188089756123136"] .username-2b1r56,
+.root-3QyAh1[data-user-id="193188089756123136"] .username-2b1r56
+{ 
+    color: transparent !important;
+    font-weight: bold; background-size: 300%;
+    animation: shine 10s linear infinite;
+    -webkit-background-clip: text;
 
-// Noteless#0666 - Blue / Dark
+    background-image: linear-gradient(-60deg, #000000 0%, #ffffff 50%, #000000 100%);
+}
+
+// Noteless#0666
 .message-2qnXI6[data-user-id="281376608038813696"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[data-author-id="281376608038813696"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[vz-user-id="281376608038813696"] .username-1A8OIy,
@@ -164,7 +172,7 @@
     background-image: linear-gradient(-60deg, #1a8ce9 40%, #0b304e 80%, #1a8ce9 100%);
 }
 
-// Qvas#7777 - Gold
+// Qvas#7777
 .message-2qnXI6[data-user-id="596812194906374167"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[data-author-id="596812194906374167"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[vz-user-id="596812194906374167"] .username-1A8OIy,
@@ -184,7 +192,7 @@
     background-image: linear-gradient(-60deg, #ffe23b, #a18400, #ffe23b);
 }
 
-// Josh#3577 - Purple
+// Josh#3577
 .message-2qnXI6[data-user-id="269939624401436672"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[data-author-id="269939624401436672"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[vz-user-id="269939624401436672"] .username-1A8OIy,
@@ -204,7 +212,7 @@
     background-image: linear-gradient(-60deg, #DA22FF, #9733EE, #DA22FF);
 }
 
-// Rabbite#6969 - Lot of colors
+// Rabbite#6969
 .message-2qnXI6[data-user-id="272440514400354305"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[data-author-id="272440514400354305"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[vz-user-id="272440514400354305"] .username-1A8OIy,

@@ -31,7 +31,15 @@
 .member-3-YXUe[vz-user-id="193188089756123136"] .roleColor-rz2vM0,
 .userPopout-xaxa6l[data-user-id="193188089756123136"] .username-2b1r56,
 .userPopout-xaxa6l[vz-user-id="193188089756123136"] .username-2b1r56,
-.root-3QyAh1[data-user-id="193188089756123136"] .username-2b1r56,
+.root-3QyAh1[data-user-id="193188089756123136"] .username-2b1r56 {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  animation: shine 10s linear infinite;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(-60deg, #000000 0%, #ffffff 50%, #000000 100%);
+}
+
 .message-2qnXI6[data-user-id="281376608038813696"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[data-author-id="281376608038813696"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[vz-user-id="281376608038813696"] .username-1A8OIy,
