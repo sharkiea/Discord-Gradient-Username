@@ -60,7 +60,11 @@
 
     // ♡Okajuni♡ [BC]#1041
     &[data-user-id="478881945020006402"],
-    &[vz-user-id="478881945020006402"]
+    &[vz-user-id="478881945020006402"],
+
+    // Kaia#8444
+    &[data-user-id="118830296350064641"],
+    &[vz-user-id="118830296350064641"],
 
     {
         .profileBadges-ohc0Vu::before {
@@ -132,7 +136,11 @@
 
     // ♡Okajuni♡ [BC]#1041
     &[data-user-id="478881945020006402"]::before,
-    &[vz-user-id="478881945020006402"]::before
+    &[vz-user-id="478881945020006402"]::before,
+
+    // Kaia#8444
+    &[data-user-id="118830296350064641"]::before,
+    &[vz-user-id="118830296350064641"]::before,
 
     {
         content: ""; position: absolute;
@@ -438,6 +446,26 @@
     -webkit-background-clip: text;
 
     background-image: linear-gradient(90deg, rgba(25,25,27,1) 0%, rgba(222,175,157,1) 33%, rgb(235, 111, 146) 66%, rgba(25,25,27,1) 100%);
+}
+
+// Kaia#8444
+.message-2qnXI6[data-user-id="118830296350064641"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="118830296350064641"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="118830296350064641"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="118830296350064641"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="118830296350064641"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="118830296350064641"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="118830296350064641"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="118830296350064641"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="118830296350064641"] .username-2b1r56,
+.root-3QyAh1[data-user-id="118830296350064641"] .username-2b1r56
+{
+    color: transparent !important;
+    font-weight: bold; background-size: 300%;
+    animation: shine 10s linear infinite;
+    -webkit-background-clip: text;
+
+    background-image: linear-gradient(90deg, rgba(118,240,255,1) 0%, rgba(251,213,255,1) 30%, rgba(255,255,255,1) 50%, rgba(251,213,255,1) 70%, rgba(118,240,255,1) 100%);
 }
 
 // Keyframes
