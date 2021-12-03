@@ -31,20 +31,20 @@
     &[vz-user-id="303880582331629569"],
 
     // Reaper45#0001
-    &[data-user-id="303880582331629569"],
-    &[vz-user-id="303880582331629569"],
+    &[data-user-id="562386647828791311"],
+    &[vz-user-id="562386647828791311"],
 
     // SkeppyCat#1185
     &[data-user-id="442661470770167838"],
     &[vz-user-id="442661470770167838"],
 
-    // LewsTherin#0001
-    &[data-user-id="148883925270396929"],
-    &[vz-user-id="148883925270396929"],
-
     // D |049| CatBoy#0049
     &[data-user-id="394804652064899072"],
     &[vz-user-id="394804652064899072"],
+
+    // LewsTherin#0001
+    &[data-user-id="148883925270396929"],
+    &[vz-user-id="148883925270396929"],
 
     // AnnoyedLoki#0117
     &[data-user-id="233787027517210624"],
@@ -65,6 +65,10 @@
     // Kaia#8444
     &[data-user-id="118830296350064641"],
     &[vz-user-id="118830296350064641"],
+
+    // Maclean#8719
+    &[data-user-id="421890156686213120"],
+    &[vz-user-id="421890156686213120"]
 
     {
         .profileBadges-ohc0Vu::before {
@@ -141,6 +145,10 @@
     // Kaia#8444
     &[data-user-id="118830296350064641"]::before,
     &[vz-user-id="118830296350064641"]::before,
+
+    // Maclean#8719
+    &[data-user-id="421890156686213120"]::before,
+    &[vz-user-id="421890156686213120"]::before
 
     {
         content: ""; position: absolute;
@@ -466,6 +474,26 @@
     -webkit-background-clip: text;
 
     background-image: linear-gradient(90deg, rgba(118,240,255,1) 0%, rgba(251,213,255,1) 30%, rgba(255,255,255,1) 50%, rgba(251,213,255,1) 70%, rgba(118,240,255,1) 100%);
+}
+
+// Maclean#8719
+.message-2qnXI6[data-user-id="421890156686213120"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="421890156686213120"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="421890156686213120"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="421890156686213120"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="421890156686213120"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="421890156686213120"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="421890156686213120"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="421890156686213120"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="421890156686213120"] .username-2b1r56,
+.root-3QyAh1[data-user-id="421890156686213120"] .username-2b1r56
+{
+    color: transparent !important;
+    font-weight: bold; background-size: 300%;
+    animation: shine 10s linear infinite;
+    -webkit-background-clip: text;
+
+    background-image: linear-gradient(90deg, rgba(225,116,139,1) 0%, rgba(234,161,166,1) 25%, rgba(230,220,237,1) 50%, rgba(227,238,248,1) 75%, rgba(232,248,235,1) 100%);
 }
 
 // Keyframes
