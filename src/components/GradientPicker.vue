@@ -232,7 +232,10 @@ export default {
     vertical-align: top;
   }
 
-  .headerTagDiscriminatorNoNickname-D-AYUN { font-weight: 600;}
+  .headerTagDiscriminatorNoNickname-D-AYUN,
+  .headerTagUsernameNoNickname-2-Y5Ct { 
+    font-weight: 600;
+  }
 
   .popoutInfo-1A9dyK {
     padding: 0 16px 16px;

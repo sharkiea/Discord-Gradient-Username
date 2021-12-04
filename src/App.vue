@@ -1,9 +1,16 @@
 <template>
-  <div class="banner"></div>
-  <div class="iframe">
-    <iframe src="https://cssgradient.io/" frameborder="0"></iframe>
+  <div>
+    <div class="banner"></div>
+    <div class="iframe">
+      <iframe src="https://cssgradient.io/" frameborder="0"></iframe>
+      
+    </div>
+    <GradientPicker/>
   </div>
-  <GradientPicker/>
+  <video controls>
+      <source src="./assets/tutorial.mp4"
+              type="video/mp4">
+  </video>
 </template>
 
 <script>
@@ -32,10 +39,8 @@ export default {
   }
 
   #app {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    max-width: 800px;
+    display: flex; justify-content: center;
+    width: 100vw; gap: 20px;
   }
 
   .banner { 
@@ -52,6 +57,13 @@ export default {
   }
   
   iframe { width: calc(100% + 18px); height: 100%;}
+
+  video { 
+    width: 600px;
+    position: sticky; top: calc(25% - 10px);
+    height: fit-content;
+    border-radius: 16px;
+  }
 
   @media (max-width: 600px) {
     iframe { width: 100%;}
