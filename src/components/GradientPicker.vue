@@ -115,7 +115,7 @@ export default {
 
   .title + h4 { color: #b9bbbe; font-weight: 500;}
 
-  @media (max-width: 800px) {
+  @media (max-width: 1500px) {
     .choices { flex-direction: column;}
   }
 

@@ -59,7 +59,7 @@ export default {
   iframe { width: calc(100% + 18px); height: 100%;}
 
   video { 
-    width: 600px;
+    width: 100%; max-width: 600px; min-width: 0;
     position: sticky; top: calc(25% - 10px);
     height: fit-content;
     border-radius: 16px;
