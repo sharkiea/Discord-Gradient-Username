@@ -2,7 +2,7 @@ powercord_manifest.json
 
 .DS_Store
 node_modules
-/public
+/dist
 
 
 # local env files
