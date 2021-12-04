@@ -4,7 +4,7 @@
       <link :href="themeLink" rel="stylesheet">
       <div class="title">
         <h3>Thanks again for donating to me </h3>
-        <img src="https://cdn.discordapp.com/emojis/813060332704366642.png?v=1" alt="peepoLove">
+        <img src="../assets/peepolove.png" alt="peepoLove">
       </div>
       <h4>Use the CSS gradient website upper and copy the result in the gradient field</h4>
       <div class="choices">
