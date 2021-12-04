@@ -76,7 +76,7 @@
   -webkit-animation: shine 10s linear infinite;
           animation: shine 10s linear infinite;
   -webkit-background-clip: text;
-  background-image: linear-gradient(-60deg, #ffe23b, #a18400, #ffe23b);
+  background-image: linear-gradient(90deg, #610019 0%, #ff0041 100%);
 }
 
 .message-2qnXI6[data-user-id="269939624401436672"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
