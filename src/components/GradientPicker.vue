@@ -20,40 +20,41 @@
 
     <main>
       <div class="profileCustomizationSection-1-Issy">
-        <div class="profileBannerPreview-gaX5MP">
-          <div class="baseLayout-NX_bpH">
-            <div class="bannerNormal-3u-o59 banner-3vVQWW" style="background-color: rgb(217, 198, 181);">
-            </div>
+        <div class="baseLayout-NX_bpH">
+          <div class="profileBannerPreview-gaX5MP">
+            <div class="bannerNormal-3u-o59 banner-3vVQWW" style="background-color: rgb(217, 198, 181);"></div>
             <div class="avatarUploader-3XDtmn avatarUploaderNormal-1kvMcd avatarUploader-3h7Odh">
-              <div class="avatarUploaderInner-3UNxY3 avatarUploaderInner-mAGe3e" style="background-image: url(&quot;https://cdn.discordapp.com/avatars/265924886461939712/1414ce40448adcd9fcf7225a8e0936ac.webp?size=80&quot;);">
+              <div class="avatarUploaderInner-3UNxY3 avatarUploaderInner-mAGe3e" style="background-image: url(&quot;https://cdn.discordapp.com/avatars/265924886461939712/1414ce40448adcd9fcf7225a8e0936ac.webp?size=80&quot;);"></div>
             </div>
-          </div>
-          <div class="headerTop-3vNv-a">
-            <div class="profileBadges-ohc0Vu container-q03LZO" aria-label="Badges d'utilisateur" role="group">
-              <div class="clickable-17BDii" aria-label="Balance de la HypeSquad" role="button" tabindex="0">
-                <img alt=" " aria-hidden="true" src="../assets/hypesquad.svg" class="profileBadge22-LJmn9o profileBadge-2niAfJ desaturate-qhyunI">
+            <div class="headerTop-3vNv-a">
+              <div class="profileBadges-ohc0Vu container-q03LZO" aria-label="Badges d'utilisateur" role="group">
+                <div class="clickable-17BDii" aria-label="Balance de la HypeSquad" role="button" tabindex="0">
+                  <img alt=" " aria-hidden="true" src="../assets/hypesquad.svg" class="profileBadge22-LJmn9o profileBadge-2niAfJ desaturate-qhyunI">
+                </div>
+              </div>
+              <div class="headerText-1vVs-U">
+                <div class="headerTagNoNickname-3qrd77 headerTag-3GFl76 nameTag-m8r81H">
+                  <span class="username-2b1r56 headerTagUsernameNoNickname-2-Y5Ct headerTagUsernameBase-1NqrY5" :style="{ backgroundImage: gradient }">{{ username }}</span>
+                  <span class="headerTagDiscriminatorNoNickname-D-AYUN discrimBase-24vY8o">#0001</span>
+                </div>
               </div>
             </div>
-            <div class="headerText-1vVs-U">
-              <div class="headerTagNoNickname-3qrd77 headerTag-3GFl76 nameTag-m8r81H">
-                <span class="username-2b1r56 headerTagUsernameNoNickname-2-Y5Ct headerTagUsernameBase-1NqrY5" :style="{ backgroundImage: gradient }">{{ username }}</span>
-                <span class="headerTagDiscriminatorNoNickname-D-AYUN discrimBase-24vY8o">#0001</span>
+            <div class="popoutInfo-1A9dyK">
+              <div class="divider-ewBQKj"></div>
+              <div class="aboutMeSection-1Fw5Ia">
+                <h3 class="aboutMeTitle-1IYtPE fontDisplay-1dagSA base-1x0h_U size12-3cLvbJ muted-3-7c5L uppercase-3VWUQ9">À propos de moi</h3>
+                <div class="aboutMeBody-3GuvKk markup-2BOw-j clamped-IwJfxR">i like takahashi rie
+                  <a class="anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB" title="https://nyri4.github.io/" href="https://nyri4.github.io/" rel="noreferrer noopener" target="_blank" role="button" tabindex="0">https://nyri4.github.io/</a>
+                  Avatar : <code class="inline">pixiv.net/en/artworks/67504645</code>
+                  Banner : <code class="inline">pixiv.net/en/artworks/93532088</code>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="popoutInfo-1A9dyK">
-            <div class="divider-ewBQKj"></div>
-            <div class="aboutMeSection-1Fw5Ia">
-              <h3 class="aboutMeTitle-1IYtPE fontDisplay-1dagSA base-1x0h_U size12-3cLvbJ muted-3-7c5L uppercase-3VWUQ9">À propos de moi</h3>
-              <div class="aboutMeBody-3GuvKk markup-2BOw-j clamped-IwJfxR">i like takahashi rie
-                <a class="anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB" title="https://nyri4.github.io/" href="https://nyri4.github.io/" rel="noreferrer noopener" target="_blank" role="button" tabindex="0">https://nyri4.github.io/</a>
-                Avatar : <code class="inline">pixiv.net/en/artworks/67504645</code>
-                Banner : <code class="inline">pixiv.net/en/artworks/93532088</code></div></div>
-            <div aria-hidden="true">
-              <h3 class="fakeActivityTitle-ka26mT fontDisplay-1dagSA base-1x0h_U size12-3cLvbJ muted-3-7c5L uppercase-3VWUQ9">Personnalisation de mon profil</h3>
-              <div class="fakeActivityLayout-AhfPCa">
-                <div class="fakeActivityIcon-2uT519 wumpus-1nZlIc">
-                  <img class="fakeActivityPencil-3yYmN6" src="../assets/activity.png" style="transform: none;"></div>
+              <div aria-hidden="true">
+                <h3 class="fakeActivityTitle-ka26mT fontDisplay-1dagSA base-1x0h_U size12-3cLvbJ muted-3-7c5L uppercase-3VWUQ9">Personnalisation de mon profil</h3>
+                <div class="fakeActivityLayout-AhfPCa">
+                  <div class="fakeActivityIcon-2uT519 wumpus-1nZlIc">
+                    <img class="fakeActivityPencil-3yYmN6" src="../assets/activity.png" style="transform: none;">
+                  </div>
                   <div class="fakeActivityContent-gUkdvL">
                     <div class="colorStandard-2KCXvj size14-e6ZScH strong-1TazCs">Profil d'utilisateur</div>
                     <div class="colorStandard-2KCXvj size14-e6ZScH">Temps écoulé&nbsp;: 
@@ -139,9 +140,12 @@ export default {
 
   .choices img { width: 56px; border-radius: 16px;}
 
+  h3 { margin: 0;}
+
   /* Discord basic css */
+  .profileCustomizationSection-1-Issy { margin-top: 10px;}
+
   .profileBannerPreview-gaX5MP {
-    margin-top: 30px;
     position: relative;
     width: 300px;
     min-width: 300px;
