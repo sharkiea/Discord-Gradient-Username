@@ -1,4 +1,7 @@
 powercord_manifest.json
+prepros.config
+/.vscode/
+.prettierignore
 
 .DS_Store
 node_modules
