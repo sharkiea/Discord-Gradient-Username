@@ -93,10 +93,15 @@
     // 💙dopadream💛#7777
     &[data-user-id="717509908479868999"],
     &[vz-user-id="717509908479868999"],
-
+    
     // Cywell#0001
     &[data-user-id="522953162748067840"],
-    &[vz-user-id="522953162748067840"]
+    &[vz-user-id="522953162748067840"],
+
+    // waasabii#0112
+    &[data-user-id="936723624180727888"],
+    &[vz-user-id="936723624180727888"]
+    
 
     {
         .profileBadges-2pItdR::before {
@@ -204,7 +209,12 @@
 
     // Cywell#0001
     &[data-user-id="522953162748067840"]::before,
-    &[vz-user-id="522953162748067840"]::before
+    &[vz-user-id="522953162748067840"]::before,
+
+    // waasabii#0112
+    &[data-user-id="936723624180727888"]::before,
+    &[vz-user-id="936723624180727888"]::before
+    
 
     {
         content: ""; position: absolute;
@@ -612,7 +622,7 @@
     background-image: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
 }
 
-// J6lka#4160 516246121002303489
+// J6lka#4160
 .message-2CShn3[data-user-id="516246121002303489"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
 .message-2CShn3[data-author-id="516246121002303489"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
 .message-2CShn3[vz-user-id="516246121002303489"] .username-h_Y3Us,
@@ -652,10 +662,6 @@
     background-image: linear-gradient(45deg,orange, yellow, green, blue, indigo, violet, red);;
 }
 
-// Keyframes
-@keyframes shine { to { background-position: 300% center;}}
-@keyframes shine-reversed { to { background-position: -300% center;}}
-
 // 💙dopadream💛#7777
 .message-2CShn3[data-user-id="717509908479868999"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
 .message-2CShn3[data-author-id="717509908479868999"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
@@ -694,6 +700,26 @@
     -webkit-background-clip: text;
     
     background-image: linear-gradient(90deg, rgba(0,0,0,1) 6%, rgba(17,91,15,0.9912280701754386) 48%, rgba(17,176,8,1) 83%);;
+}
+
+// waasabii#0112
+.message-2CShn3[data-user-id="936723624180727888"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+.message-2CShn3[data-author-id="936723624180727888"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+.message-2CShn3[vz-user-id="936723624180727888"] .username-h_Y3Us,
+.channel-1Shao0[data-user-id="936723624180727888"] .overflow-1wOqNV,
+.channel-1Shao0[vz-user-id="936723624180727888"] .overflow-1wOqNV,
+.member-2gU6Ar[data-user-id="936723624180727888"] .roleColor-nA7BqX,
+.member-2gU6Ar[vz-user-id="936723624180727888"] .roleColor-nA7BqX,
+.userPopout-2j1gM4[data-user-id="936723624180727888"] .username-3JLfHz,
+.userPopout-2j1gM4[vz-user-id="936723624180727888"] .username-3JLfHz,
+.root-8LYsGj[data-user-id="936723624180727888"] .username-3JLfHz
+{
+    color: transparent !important;
+    font-weight: bold; background-size: 300%;
+    animation: shine-reversed 5s linear infinite;
+    -webkit-background-clip: text;
+    
+    background: linear-gradient(90deg, rgba(184,106,126,1) 0%, rgba(254,221,216,1) 25%, rgba(250,194,254,1) 50%, rgba(254,221,216,1) 75%, rgba(184,106,126,1) 100%);
 }
 
 // Keyframes
