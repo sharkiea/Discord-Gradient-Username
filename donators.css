@@ -485,7 +485,7 @@
   -webkit-animation: shine-reversed 5s linear infinite;
           animation: shine-reversed 5s linear infinite;
   -webkit-background-clip: text;
-  background: linear-gradient(90deg, rgb(184, 106, 126) 0%, rgb(254, 221, 216) 25%, rgb(250, 194, 254) 50%, rgb(254, 221, 216) 75%, rgb(184, 106, 126) 100%);
+  background: linear-gradient(90deg, rgb(55, 177, 218) 0%, rgb(146, 111, 210) 32%, rgb(181, 86, 207) 51%, rgb(203, 152, 127) 80%, rgb(204, 221, 59) 100%);
 }
 
 @-webkit-keyframes shine {
