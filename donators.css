@@ -485,7 +485,7 @@
   -webkit-animation: shine-reversed 5s linear infinite;
           animation: shine-reversed 5s linear infinite;
   -webkit-background-clip: text;
-  background: linear-gradient(90deg, rgb(55, 177, 218) 0%, rgb(146, 111, 210) 32%, rgb(181, 86, 207) 51%, rgb(203, 152, 127) 80%, rgb(204, 221, 59) 100%);
+  background-image: linear-gradient(90deg, rgb(55, 177, 218) 0%, rgb(146, 111, 210) 32%, rgb(181, 86, 207) 51%, rgb(203, 152, 127) 80%, rgb(204, 221, 59) 100%);
 }
 
 .message-2CShn3[data-user-id="444254890563338241"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
@@ -504,7 +504,7 @@
   -webkit-animation: shine-reversed 5s linear infinite;
           animation: shine-reversed 5s linear infinite;
   -webkit-background-clip: text;
-  background: linear-gradient(90deg, rgb(93, 164, 204) 0%, rgb(132, 208, 142) 19%, rgb(218, 139, 163) 40%, rgb(222, 159, 117) 59%, rgb(219, 88, 88) 79%, rgb(209, 154, 228) 100%);
+  background-image: linear-gradient(90deg, rgb(93, 164, 204) 0%, rgb(132, 208, 142) 19%, rgb(218, 139, 163) 40%, rgb(222, 159, 117) 59%, rgb(219, 88, 88) 79%, rgb(209, 154, 228) 100%);
 }
 
 @-webkit-keyframes shine {
