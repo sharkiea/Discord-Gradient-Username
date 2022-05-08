@@ -104,7 +104,11 @@
 
     // LoafOfCurry#0001
     &[data-user-id="444254890563338241"],
-    &[vz-user-id="444254890563338241"]
+    &[vz-user-id="444254890563338241"],
+
+    // NomadNaomie#7601
+    &[data-user-id="188323207793606656"],
+    &[vz-user-id="188323207793606656"]
 
     {
         .profileBadges-2pItdR::before {
@@ -220,7 +224,11 @@
 
     // LoafOfCurry#0001
     &[data-user-id="444254890563338241"]::before,
-    &[vz-user-id="444254890563338241"]::before
+    &[vz-user-id="444254890563338241"]::before,
+
+    // NomadNaomie#7601
+    &[data-user-id="188323207793606656"]::before,
+    &[vz-user-id="188323207793606656"]::before
 
     {
         content: ""; position: absolute;
@@ -739,6 +747,26 @@
 .userPopout-2j1gM4[data-user-id="444254890563338241"] .username-3JLfHz,
 .userPopout-2j1gM4[vz-user-id="444254890563338241"] .username-3JLfHz,
 .root-8LYsGj[data-user-id="444254890563338241"] .username-3JLfHz
+{
+    color: transparent !important;
+    font-weight: bold; background-size: 300%;
+    animation: shine-reversed 5s linear infinite;
+    -webkit-background-clip: text;
+    
+    background-image: linear-gradient(90deg, rgba(93,164,204,1) 0%, rgba(132,208,142,1) 19%, rgba(218,139,163,1) 40%, rgba(222,159,117,1) 59%, rgba(219,88,88,1) 79%, rgba(209,154,228,1) 100%);
+}
+
+// NomadNaomie#7601
+.message-2CShn3[data-user-id="188323207793606656"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+.message-2CShn3[data-author-id="188323207793606656"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+.message-2CShn3[vz-user-id="188323207793606656"] .username-h_Y3Us,
+.channel-1Shao0[data-user-id="188323207793606656"] .overflow-1wOqNV,
+.channel-1Shao0[vz-user-id="188323207793606656"] .overflow-1wOqNV,
+.member-2gU6Ar[data-user-id="188323207793606656"] .roleColor-nA7BqX,
+.member-2gU6Ar[vz-user-id="188323207793606656"] .roleColor-nA7BqX,
+.userPopout-2j1gM4[data-user-id="188323207793606656"] .username-3JLfHz,
+.userPopout-2j1gM4[vz-user-id="188323207793606656"] .username-3JLfHz,
+.root-8LYsGj[data-user-id="188323207793606656"] .username-3JLfHz
 {
     color: transparent !important;
     font-weight: bold; background-size: 300%;
