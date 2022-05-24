@@ -7,6 +7,8 @@ prepros.config
 node_modules
 /dist
 
+# Source map
+*.map
 
 # local env files
 .env.local
